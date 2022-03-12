@@ -87,10 +87,12 @@ class Appointment extends Component {
                                         <textarea class="form-control" id="Textarea" rows="3"></textarea></div>
                                 </div>
 
-                                <input type="submit" value="Submit"></input>
+                                
 
                             </div>
                         </div>
+                        
+                        <input type="submit" value="Submit"></input>
                     </div>
 
 

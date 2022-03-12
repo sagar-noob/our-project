@@ -31,7 +31,7 @@ form:after{
   right: -5px;
   bottom: -5px;
   z-index: 1;
-  background-image: linear-gradient(to bottom right, #FFCE00, #FE4880);
+  background-image: linear-gradient(to bottom right, #FFCE00);
 
 
 }
@@ -83,7 +83,7 @@ form .form-inner input[type="submit"]{
   width: 200px;
   padding: 10px 15px;
   border-radius: 8px;
-  background-image: linear-gradient(to right, #FFCE00 50%, #FFCE00 50%, #FE4880 );
+  background-image: linear-gradient(to right, #00ff88 50%, #00ff88 50% );
   background-size: 100%;
   background-position: 0%;
   transition: 0.5s;

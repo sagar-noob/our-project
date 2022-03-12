@@ -1,10 +1,11 @@
 
 import { useState } from 'react';
 import './index.css';
-
 import styled from 'styled-components';
-import Navbar from './Component/Navbar';
+import Addpatients from './Component/Addpatients'
 import Loginform from './Component/Loginform';
+import Registrationform from './Component/Registrationform'
+
 import Appointment from './Component/Appointment';
 import Adddoctor from './Component/Adddoctor';
 import Sidebar from './Component/Sidebar';
@@ -20,7 +21,7 @@ function App() {
   return (
     <Router>
     
-      <Appointment/>
+      <Registrationform/>
 
     </Router>
      );
