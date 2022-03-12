@@ -5,7 +5,6 @@ import styled from 'styled-components';
 import Addpatients from './Component/Addpatients'
 import Loginform from './Component/Loginform';
 import Registrationform from './Component/Registrationform'
-
 import Appointment from './Component/Appointment';
 import Adddoctor from './Component/Adddoctor';
 import Sidebar from './Component/Sidebar';
@@ -21,7 +20,7 @@ function App() {
   return (
     <Router>
     
-      <Registrationform/>
+      <Sidebar/>
 
     </Router>
      );
