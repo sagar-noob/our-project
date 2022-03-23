@@ -8,15 +8,9 @@ import { BiBed} from "react-icons/bi";
 import { BiGrid} from "react-icons/bi";
 import { BiUser} from "react-icons/bi";
 import { AiFillEdit } from "react-icons/ai";
-
-
-
-
-
-
-
 import { Sidebardata} from './Sidebardata'
 import Submenu from './Submenu'
+
 
 const Nav = styled.div`
 background: #15171c;
