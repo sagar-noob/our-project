@@ -1,9 +1,12 @@
 import React, { Component } from 'react'
+
 class Addpatients extends Component {
     render() {
         return (
             <section>
-                <h2>Add Patients</h2>
+                <div class="card-header py-3 no-bg bg-transparent d-flex align-items-center px-0 justify-content-between border-bottom flex-wrap">
+                <h2 className='fw-bold mb-0'>Add Patients</h2>
+                </div>
                 <form>
                     <div className='form-inner'>
                         <h4>Patients Basic  information</h4>
@@ -87,11 +90,11 @@ class Addpatients extends Component {
                             <div className="col">
                                 <label htmlFor='insurance information'>Insurance Information</label>
                                 <div className='col'>
-                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"/>
-                                    <label class="form-check-label" for="inlineRadio1" > Yes I have insurance</label>
-                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"/>
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" />
+                                    <label class="form-check-label" for="inlineRadio1" > Yes I have insurance</label><br/>
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" />
                                     <label class="form-check-label" for="inlineRadio1" > No I haven't insurance</label>
-                             </div>
+                                </div>
                             </div>
                             <div className="row">
                                 <div className="col">
@@ -105,26 +108,31 @@ class Addpatients extends Component {
                             </div>
                             <div className="row">
                                 <div className="col">
-                                <label htmlFor='Select Doctor'>Select Doctor</label>
-                                        <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
-                                            <option selected>Select Doctor</option>
-                                            <option value="1">DR.Peter</option>
-                                            <option value="2">DR.Mary</option>
-                                            <option value="3">DR.Zoe</option>
-                                            <option value="3">DR.Lily</option>
-
-                                        </select>
+                                    <label htmlFor='Select Doctor'>Select Doctor</label>
+                                    <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                                    <option selected>Select Doctor</option>
+                                            <option value="1">DR.Mahesh Dahal</option>
+                                            <option value="2">DR.Apekshya Shrestha</option>
+                                            <option value="3">DR.Barnit Shakya</option>
+                                            <option value="4">DR.Isha Karki</option>
+                                            <option value="5">DR.Parag Karki</option>
+                                            <option value="6">DR.Aparna Amatya</option>
+                                            <option value="7">DR.Banira Karki</option>
+                                            <option value="8">DR.Priyank Sharma</option>
+                                            
+                                    </select>
                                 </div>
                                 <div className="col">
-                                <label htmlFor='Advance Amount'>Advance Amount</label>
+                                    <label htmlFor='Advance Amount'>Advance Amount</label>
                                     <input type="text" class="form-control" placeholder="Advance Amount" aria-label="Advance Amount" />
-                                    
+
                                 </div>
                             </div>
-                        
-                                <div className="col">
-                             </div>
-                            <input type="submit" value="Submit"></input>
+
+                            <div className="col">
+                            </div>
+
+                            <input type="submit" id="bigreko-submit" value="Submit"></input>
                         </div>
                     </div>
                 </form>
@@ -135,4 +143,5 @@ class Addpatients extends Component {
     }
 
 }
+
 export default Addpatients;

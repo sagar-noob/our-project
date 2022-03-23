@@ -6,7 +6,7 @@ class Adddoctor extends Component {
                 <h2>Add Doctor</h2>
                 <form>
                     <div className='form-inner'>
-                    <h4>Doctor information</h4>
+                    <h4 className='fw-bold mb-0'>Doctor information</h4>
                         <div className="row">
                             <div className="col">
                                 <label htmlFor='Name'>First Name</label>

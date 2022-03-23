@@ -6,9 +6,7 @@ class Appointment extends Component {
                 <h2>Appointment Booking</h2>
                 <form>
                     <div className='form-inner'>
-
-
-                        <h4>Basic information</h4>
+                     <h4>Basic information</h4>
                         <div className="row">
                             <div className="col">
                                 <label htmlFor='Name'>Full Name</label>
@@ -46,10 +44,13 @@ class Appointment extends Component {
                                         <label htmlFor='Select Reason'>Select Reason</label>
                                         <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
                                             <option selected>Select Reason</option>
-                                            <option value="1">Surgery</option>
-                                            <option value="2">Body Checkup</option>
+                                            <option value="1">Radiologist</option>
+                                            <option value="2">Internal Medicine</option>
                                             <option value="3">Gynecologist</option>
-                                            <option value="3">Other Service</option>
+                                            <option value="3">Breast Cancer Specilist</option>
+                                            <option value="3">Pediatrician</option>
+                                            <option value="3">Neuropsychaiatrist</option>
+                                            <option value="3">ENT</option>
 
                                         </select>
                                     </div>
@@ -57,10 +58,18 @@ class Appointment extends Component {
                                         <label htmlFor='Select Doctor'>Select Doctor</label>
                                         <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
                                             <option selected>Select Doctor</option>
-                                            <option value="1">DR.Peter</option>
-                                            <option value="2">DR.Mary</option>
-                                            <option value="3">DR.Zoe</option>
-                                            <option value="3">DR.Lily</option>
+                                            <option value="1">DR.Mahesh Dahal</option>
+                                            <option value="2">DR.Apekshya Shrestha</option>
+                                            <option value="3">DR.Barnit Shakya</option>
+                                            <option value="4">DR.Isha Karki</option>
+                                            <option value="5">DR.Parag Karki</option>
+                                            <option value="6">DR.Aparna Amatya</option>
+                                            <option value="7">DR.Banira Karki</option>
+                                            <option value="8">DR.Priyank Sharma</option>
+                                            
+                                            
+                                            
+
 
                                         </select>
                                     </div>

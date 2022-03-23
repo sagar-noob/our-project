@@ -25,7 +25,7 @@ export default function Registrationform({Login,error}) {
         <div className='form-inner'>
             <h2>Registration form</h2>
             <div className='form-group'>
-                <label htmlFor='Name'>Name:</label>
+                <label htmlFor='Name'>Full Name:</label>
                 <input type="name" name='name' id="name" onChange={e => setName(e.value)} value={name}/>
 
             </div>
