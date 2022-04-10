@@ -3,8 +3,8 @@ class AllDoctor extends Component {
     render() {
         return (
             <section>
-                <div class="card-header py-3 no-bg bg-transparent d-flex align-items-center px-0 justify-content-between border-bottom flex-wrap">
-                <h1 className='fw-bold mb-0'>All Doctor</h1>
+                <div className="card-header py-3 no-bg bg-transparent d-flex align-items-center px-0 justify-content-between border-bottom flex-wrap">
+                <h2 style={{textAlign: "center" , flex:"1", lineHeight:"100px", fontWeight:"bold"}}>AllDoctor</h2>
                 </div>
                 <div className="row g-3 row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4 row-cols-xl-4 row-cols-xxl-4 row-deck py-1 pb-4">
                 <div className="col">

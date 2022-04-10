@@ -3,36 +3,42 @@ class Appointment extends Component {
     render() {
         return (
             <section>
-                <h2>Appointment Booking</h2>
-                <form>
+                  <h2 style={{textAlign: "center" , flex:"1", lineHeight:"100px", fontWeight:"bold"}}>Appointment Booking</h2>
+                <form style={{
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    marginTop:'5px',
+                    
+                }}>
                     <div className='form-inner'>
-                     <h4>Basic information</h4>
+                    <h4 style={{textAlign: "center" ,  flex:"1", lineHeight:"50px",fontWeight:"bold"}}> Basic Information</h4>
                         <div className="row">
                             <div className="col">
                                 <label htmlFor='Name'>Full Name</label>
-                                <input type="text" class="form-control" placeholder="Full name" aria-label="Full name" />
+                                <input type="text" className="form-control" placeholder="Full name" aria-label="Full name" />
                             </div>
                             <div className="col">
                                 <label htmlFor='Phone number'>Phone number</label>
-                                <input type="text" class="form-control" placeholder="Phone number" aria-label="phone number" />
+                                <input type="text" className="form-control" placeholder="Phone number" aria-label="phone number" />
                             </div>
                             <div className="row">
                                 <div className="col">
                                     <label htmlFor='Email address'>Email Address</label>
-                                    <input type="text" class="form-control" placeholder="Email Address" aria-label="Email Address" />
+                                    <input type="text" className="form-control" placeholder="Email Address" aria-label="Email Address" />
                                 </div>
 
                                 <div className="col">
                                     <label htmlFor='Gender'>Gender</label>
                                     <div className="form-check">
-                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
-                                        <label class="form-check-label" for="flexRadioDefault1">
+                                        <input className="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
+                                        <label className="form-check-label" for="flexRadioDefault1">
                                             Male
                                         </label>
                                     </div>
-                                    <div class="form-check ">
-                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked />
-                                        <label class="form-check-label" for="flexRadioDefault2">
+                                    <div className="form-check ">
+                                        <input className="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked />
+                                        <label className="form-check-label" for="flexRadioDefault2">
                                             Female
                                         </label>
                                     </div>
@@ -42,7 +48,7 @@ class Appointment extends Component {
                                 <div className='row'>
                                     <div className='col'>
                                         <label htmlFor='Select Reason'>Select Reason</label>
-                                        <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                                        <select className="form-select" id="floatingSelect" aria-label="Floating label select example">
                                             <option selected>Select Reason</option>
                                             <option value="1">Radiologist</option>
                                             <option value="2">Internal Medicine</option>
@@ -56,7 +62,7 @@ class Appointment extends Component {
                                     </div>
                                     <div className='col'>
                                         <label htmlFor='Select Doctor'>Select Doctor</label>
-                                        <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                                        <select className="form-select" id="floatingSelect" aria-label="Floating label select example">
                                             <option selected>Select Doctor</option>
                                             <option value="1">DR.Mahesh Dahal</option>
                                             <option value="2">DR.Apekshya Shrestha</option>
@@ -75,13 +81,13 @@ class Appointment extends Component {
                                     </div>
                                     <div className='row'>
                                     <div className='col'>
-                                        <label for="admitdate" class="form-label">Appointment Date  </label>
-                                        <input type="date" class="form-control" id="admitdate" required />
+                                        <label for="admitdate" className="form-label">Appointment Date  </label>
+                                        <input type="date" className="form-control" id="admitdate" required />
 
                                     </div>
                                     <div className='col'>
-                                    <label for="admittime" class="form-label">Appointment time  </label>
-                                        <input type="time" class="form-control" id="admittime" required />
+                                    <label for="admittime" className="form-label">Appointment time  </label>
+                                        <input type="time" className="form-control" id="admittime" required />
 
                                     </div>
 
@@ -91,9 +97,9 @@ class Appointment extends Component {
                                     
                                     
 
-                                    <div class="mb-3">
-                                        <label for="Textarea" class="form-label">Add Note</label>
-                                        <textarea class="form-control" id="Textarea" rows="3"></textarea></div>
+                                    <div className="mb-3">
+                                        <label for="Textarea" className="form-label">Add Note</label>
+                                        <textarea className="form-control" id="Textarea" rows="3"></textarea></div>
                                 </div>
 
                                 
